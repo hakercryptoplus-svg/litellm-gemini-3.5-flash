@@ -43,6 +43,9 @@ model_list:
 litellm_settings:
   drop_params: True
   set_verbose: False
+  disable_streaming_logging: True
+  telemetry: False
+  cache: False
 
 router_settings:
   routing_strategy: round-robin
