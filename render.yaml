@@ -4,26 +4,3 @@ services:
     env: docker
     plan: free
     region: oregon
-    envVars:
-      - key: LITELLM_MASTER_KEY
-        generateValue: true
-      - key: GEMINI_API_KEY_1
-        sync: false
-      - key: GEMINI_API_KEY_2
-        sync: false
-      - key: GEMINI_API_KEY_3
-        sync: false
-      - key: GEMINI_API_KEY_4
-        sync: false
-      - key: GEMINI_API_KEY_5
-        sync: false
-      - key: GEMINI_API_KEY_6
-        sync: false
-      - key: GEMINI_API_KEY_7
-        sync: false
-      - key: GEMINI_API_KEY_8
-        sync: false
-      - key: GEMINI_API_KEY_9
-        sync: false
-      - key: GEMINI_API_KEY_10
-        sync: false

@@ -2,43 +2,43 @@ model_list:
   - model_name: gemini-3.5-flash
     litellm_params:
       model: gemini/gemini-3.5-flash
-      api_key: "os.environ/GEMINI_API_KEY_1"
+      api_key: "AIzaSyDRYpesO8DICYu87PO9UhF_8s4QrchKJII"
   - model_name: gemini-3.5-flash
     litellm_params:
       model: gemini/gemini-3.5-flash
-      api_key: "os.environ/GEMINI_API_KEY_2"
+      api_key: "AIzaSyAPSZZbyvbUc23uxY4qqCKN0pw9I6-UdAg"
   - model_name: gemini-3.5-flash
     litellm_params:
       model: gemini/gemini-3.5-flash
-      api_key: "os.environ/GEMINI_API_KEY_3"
+      api_key: "AIzaSyBfv6fWvSX3RjRGZ0-Xfa9nNFujOUiS8r4"
   - model_name: gemini-3.5-flash
     litellm_params:
       model: gemini/gemini-3.5-flash
-      api_key: "os.environ/GEMINI_API_KEY_4"
+      api_key: "AIzaSyBl_jpKgojFITaTOD5xQrnOAEteq8nc3XU"
   - model_name: gemini-3.5-flash
     litellm_params:
       model: gemini/gemini-3.5-flash
-      api_key: "os.environ/GEMINI_API_KEY_5"
+      api_key: "AIzaSyCc6vNhbj3lk4Y5VbIAWGL4OJU_JHGuWJY"
   - model_name: gemini-3.5-flash
     litellm_params:
       model: gemini/gemini-3.5-flash
-      api_key: "os.environ/GEMINI_API_KEY_6"
+      api_key: "AIzaSyCX2ALYfeqD4BkuaOxcs29aJfQ6IXKC9BU"
   - model_name: gemini-3.5-flash
     litellm_params:
       model: gemini/gemini-3.5-flash
-      api_key: "os.environ/GEMINI_API_KEY_7"
+      api_key: "AIzaSyDuvIHAzO-fX6n9ji_xVNlnCOu-GdsSeZg"
   - model_name: gemini-3.5-flash
     litellm_params:
       model: gemini/gemini-3.5-flash
-      api_key: "os.environ/GEMINI_API_KEY_10"
+      api_key: "AIzaSyBefNm0HEBihSn-ZweYR5WFT5Cgj_DJbpQ"
   - model_name: gemini-3.5-flash
     litellm_params:
       model: gemini/gemini-3.5-flash
-      api_key: "os.environ/GEMINI_API_KEY_8"
+      api_key: "AIzaSyBvdjBX1Wd_x0EjmYIF4wUnQ_l2bkcPGcw"
   - model_name: gemini-3.5-flash
     litellm_params:
       model: gemini/gemini-3.5-flash
-      api_key: "os.environ/GEMINI_API_KEY_9"
+      api_key: "AIzaSyB28LR_BYvAJH2bA9gXtaJYHOVM4V_T2Do"
 
 litellm_settings:
   drop_params: True
@@ -48,7 +48,7 @@ router_settings:
   routing_strategy: round-robin
 
 general_settings:
-  master_key: "os.environ/LITELLM_MASTER_KEY"
+  master_key: "sk-litellm-master-key-1234"
   system_prompt: |
     The assistant is Claude, created by Anthropic.
     The current date is May 26, 2026.
